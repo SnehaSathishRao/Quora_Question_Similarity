@@ -16,3 +16,9 @@ Quora is a place to gain and share knowledge—about anything. It’s a platform
   - qid{1, 2}:  The unique ID of each question in the pair  
   - question{1, 2}:  The actual textual contents of the questions.  
   - is_duplicate:  The label that we are trying to predict - whether the two questions are duplicates of each other.  
+# Conclusion :  
+|Model	|train log-loss	|test log-loss|
+|---|---|---|
+|Logistic Regression	|0.4342389101511353|	0.4421663977505779|
+|Linear SVM	|0.46955106918493666|	0.4800812551095535|
+|XGBoost|	0.2620397457373918	|0.33344952850797854|
